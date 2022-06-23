@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Επικοινωνία</title>
+  </head>
+
+  <body>
+    <h1>Στοιχεία Επικοινωνίας</h1>
+    <ul>
+      <li>Διέθυνση: Β.Ηπείρου ΙΩΑΝΝΙΝΑ, Τ.Κ.:45444</li>
+      <li>Email: matt@hotmail.com</li>
+      <li>Tηλ: 26552142264</li>
+      <li>Κινητό: 6525423659</li>
+    </ul>
+
+    <br />
+    <hr />
+
+    <form
+      action="mailto:matstarwars@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label>Ονομά:</label>
+      <input type="text" name="yourName" /><br />
+      <label>Διεύθυνση Email:</label>
+      <input type="email" name="yourEmail" /><br />
+      <label for="">Μήνυμα:</label><br />
+      <textarea cols="30" rows="10" name="yourMessage">
+        Πληκτρολόγησε το μήνυμά σου εδώ</textarea
+      ><br />
+      <input type="submit" value="Αποστολή" />
+    </form>
+
+    <br />
+
+    <a href="index.html">Πίσω</a>
+  </body>
+</html>
