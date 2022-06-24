@@ -1,6 +1,7 @@
 body {
   background-color: #eeeeee;
-  color: #67e413;
+  color: gray;
+  padding-left: 50%;
 }
 
 hr {
