@@ -1,6 +1,7 @@
 body {
   background-color: #eeeeee;
   color: #393e46;
+  margin: 50vmax;
 }
 
 hr {
@@ -17,8 +18,4 @@ h1 {
 
 h3 {
   color: #00adb5;
-}
-
-ul {
-  text-align: center;
 }
