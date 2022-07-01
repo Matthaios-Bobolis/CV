@@ -9,6 +9,10 @@ h2 {
   font-size: 1.4rem;
 }
 
+h3 {
+  font-size: 1.255rem;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -52,7 +56,7 @@ hr {
   top: 50px;
 
   animation-name: test;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-delay: 0ms;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -65,15 +69,19 @@ hr {
     top: 50px;
   }
   25% {
-    top: 55px;
+    right: 300px;
+    top: 70px;
   }
   50% {
-    top: 60px;
+    right: 300px;
+    top: 90px;
   }
   75% {
-    top: 55px;
+    right: 300px;
+    top: 70px;
   }
   100% {
+    right: 300px;
     top: 50px;
   }
 }
@@ -96,6 +104,8 @@ hr {
 
 .computer-img {
   margin-bottom: 0;
+  width: 480px;
+  height: 480px;
 }
 
 #copyright {
