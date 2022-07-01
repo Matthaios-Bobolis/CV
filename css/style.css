@@ -50,6 +50,32 @@ hr {
   position: absolute;
   right: 300px;
   top: 50px;
+
+  animation-name: test;
+  animation-duration: 4s;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes test {
+  0% {
+    right: 300px;
+    top: 50px;
+  }
+  25% {
+    top: 55px;
+  }
+  50% {
+    top: 60px;
+  }
+  75% {
+    top: 55px;
+  }
+  100% {
+    top: 50px;
+  }
 }
 
 .css-img {
