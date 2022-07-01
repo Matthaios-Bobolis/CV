@@ -18,15 +18,19 @@ body {
 }
 
 .top-container {
-  background-color: #42bbda;
   position: relative;
-  padding-top: 100px;
+  padding-top: 100p  background-color: #42bbda;
+x;
 }
 
 .middle-container {
+    background-color: #42bbda;
+
 }
 
 .bottom-container {
+    background-color: #42bbda;
+
 }
 
 .pro {
