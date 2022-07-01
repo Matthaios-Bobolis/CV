@@ -60,3 +60,8 @@ td {
 th {
   background-color: grey;
 }
+
+.coding-laptop {
+  width: 144px;
+  height: 144px;
+}
