@@ -1,6 +1,7 @@
 h1 {
   font-family: "Play", sans-serif;
   font-size: 2.625rem;
+  color: #2d4263;
   margin: 50px auto 0 auto;
 }
 
@@ -14,43 +15,66 @@ body {
   font-family: "Play", sans-serif;
   font-size: 1.2rem;
 
-  color: black;
+  color: #f3eee4;
+}
+
+hr {
+  margin: 0;
+  height: 1px;
+  background-color: #e4dccf;
 }
 
 .top-container {
+  background-color: #191919;
   position: relative;
-  padding-top: 100p  background-color: #42bbda;
-x;
+  padding-top: 100px;
+  margin-bottom: 0;
 }
 
 .middle-container {
-    background-color: #42bbda;
-
+  background-color: #191919;
 }
 
 .bottom-container {
-    background-color: #42bbda;
-
+  background-color: #191919;
+  margin-bottom: 0;
 }
 
 .pro {
   text-decoration: underline;
 }
 
-.top-cloud-img {
+.html-img {
+  width: 64px;
+  height: 64px;
   position: absolute;
   right: 300px;
   top: 50px;
 }
 
-.bottom-cloud-img {
+.css-img {
+  width: 64px;
+  height: 64px;
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
 
-.mountain-img {
-  padding-bottom: 0;
+.js-img {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  right: 200px;
+  bottom: 100px;
+}
+
+.computer-img {
+  margin-bottom: 0;
+}
+
+#copyright {
+  margin-bottom: 0;
+  font-size: 1rem;
 }
 
 table {
@@ -62,10 +86,11 @@ td {
 }
 
 th {
-  background-color: grey;
+  background-color: #c84b31;
+  padding: 5px;
 }
 
-.coding-laptop {
+.coding-laptop-gif {
   width: 144px;
   height: 144px;
 }
