@@ -15,6 +15,7 @@ h2 {
 h3 {
   font-size: 1.255rem;
   font-weight: normal;
+  margin: auto;
 }
 
 body {
@@ -168,6 +169,7 @@ hr {
 
 .computer-img {
   margin-bottom: 0;
+  min-width: 64px;
   max-width: 480px;
   width: 100%;
   height: auto;
@@ -198,5 +200,5 @@ th {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto;
+  margin: 100px auto 100px auto;
 }
