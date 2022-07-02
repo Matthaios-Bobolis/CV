@@ -1,8 +1,9 @@
 h1 {
   font-family: "Play", sans-serif;
   font-size: 2.625rem;
-  color: #2d4263;
+  color: #488eff;
   margin: 50px auto 0 auto;
+  line-height: 2;
 }
 
 h2 {
@@ -11,6 +12,7 @@ h2 {
 
 h3 {
   font-size: 1.255rem;
+  font-weight: normal;
 }
 
 body {
@@ -31,7 +33,7 @@ hr {
 .top-container {
   background-color: #191919;
   position: relative;
-  padding-top: 100px;
+  padding-top: 55px;
   margin-bottom: 0;
 }
 
@@ -55,7 +57,7 @@ hr {
   right: 300px;
   top: 50px;
 
-  animation-name: test;
+  animation-name: htmlanim;
   animation-duration: 2s;
   animation-delay: 0ms;
   animation-iteration-count: infinite;
@@ -63,7 +65,7 @@ hr {
   animation-timing-function: linear;
 }
 
-@keyframes test {
+@keyframes htmlanim {
   0% {
     right: 300px;
     top: 50px;
@@ -92,6 +94,36 @@ hr {
   position: absolute;
   left: 300px;
   bottom: 300px;
+
+  animation-name: cssanim;
+  animation-duration: 2s;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes cssanim {
+  0% {
+    left: 300px;
+    bottom: 300px;
+  }
+  25% {
+    left: 300px;
+    bottom: 320px;
+  }
+  50% {
+    left: 300px;
+    bottom: 340px;
+  }
+  75% {
+    left: 300px;
+    bottom: 320px;
+  }
+  100% {
+    left: 300px;
+    bottom: 300px;
+  }
 }
 
 .js-img {
@@ -100,12 +132,42 @@ hr {
   position: absolute;
   right: 200px;
   bottom: 100px;
+
+  animation-name: jsanim;
+  animation-duration: 2s;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes jsanim {
+  0% {
+    right: 200px;
+    bottom: 100px;
+  }
+  25% {
+    right: 200px;
+    bottom: 120px;
+  }
+  50% {
+    right: 200px;
+    bottom: 140px;
+  }
+  75% {
+    right: 200px;
+    bottom: 120px;
+  }
+  100% {
+    right: 200px;
+    bottom: 100px;
+  }
 }
 
 .computer-img {
   margin-bottom: 0;
-  width: 480px;
-  height: 480px;
+  width: 450px;
+  height: 450px;
 }
 
 #copyright {
