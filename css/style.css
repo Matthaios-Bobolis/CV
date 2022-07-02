@@ -166,8 +166,9 @@ hr {
 
 .computer-img {
   margin-bottom: 0;
-  width: 450px;
-  height: 450px;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
 }
 
 #copyright {
