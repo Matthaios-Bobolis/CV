@@ -1,9 +1,18 @@
+/******************** Element selectors *******************************/
+body {
+  color: #f3eee4;
+  font-family: "Play", sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+}
+
 h1 {
+  color: #488eff;
   font-family: "Play", sans-serif;
   font-size: 2.625rem;
-  color: #488eff;
-  margin: 50px auto 0 auto;
   line-height: 2;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
@@ -18,20 +27,26 @@ h3 {
   margin: auto;
 }
 
-body {
-  margin: 0;
-  text-align: center;
-  font-family: "Play", sans-serif;
-  font-size: 1.2rem;
-
-  color: #f3eee4;
-}
-
 hr {
-  margin: 0;
-  height: 1px;
   background-color: #e4dccf;
+  height: 1px;
+  margin: 0;
 }
+
+table {
+  margin: auto;
+}
+
+td {
+  padding: 20px;
+}
+
+th {
+  background-color: #c84b31;
+  padding: 5px;
+}
+
+/****************************Class selectors**************************/
 
 .top-container {
   background-color: #191919;
@@ -54,11 +69,11 @@ hr {
 }
 
 .html-img {
-  width: 64px;
   height: 64px;
   position: absolute;
   right: 300px;
   top: 50px;
+  width: 64px;
 
   animation-name: htmlanim;
   animation-duration: 2s;
@@ -92,11 +107,11 @@ hr {
 }
 
 .css-img {
-  width: 64px;
   height: 64px;
-  position: absolute;
-  left: 300px;
   bottom: 300px;
+  left: 300px;
+  position: absolute;
+  width: 64px;
 
   animation-name: cssanim;
   animation-duration: 2s;
@@ -130,11 +145,11 @@ hr {
 }
 
 .js-img {
-  width: 64px;
+  bottom: 100px;
   height: 64px;
   position: absolute;
   right: 200px;
-  bottom: 100px;
+  width: 64px;
 
   animation-name: jsanim;
   animation-duration: 2s;
@@ -168,37 +183,31 @@ hr {
 }
 
 .computer-img {
+  height: auto;
   margin-bottom: 0;
   min-width: 64px;
   max-width: 480px;
   width: 100%;
-  height: auto;
-}
-
-#copyright {
-  margin-bottom: 0;
-  font-size: 1rem;
-}
-
-table {
-  margin: auto;
-}
-
-td {
-  padding: 20px;
-}
-
-th {
-  background-color: #c84b31;
-  padding: 5px;
 }
 
 .coding-laptop-gif {
-  width: 144px;
   height: 144px;
+  width: 144px;
 }
 
 .skill-row {
-  width: 50%;
   margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.footer-links {
+  padding: 20px;
+}
+.contact-me {
+  padding: 20px;
+}
+/********************************** ID selectors **************************/
+#copyright {
+  font-size: 1rem;
+  margin-bottom: 0;
 }
