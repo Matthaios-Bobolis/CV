@@ -25,6 +25,7 @@ h3 {
   font-size: 1.255rem;
   font-weight: normal;
   margin: auto;
+  padding: 20px;
 }
 
 hr {
@@ -57,6 +58,16 @@ th {
 
 .middle-container {
   background-color: #191919;
+  margin-bottom: 0;
+}
+
+.skills {
+  padding: 10px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
 }
 
 .bottom-container {
@@ -193,11 +204,7 @@ th {
 .coding-laptop-gif {
   height: 144px;
   width: 144px;
-}
-
-.skill-row {
-  margin: 100px auto 100px auto;
-  width: 50%;
+  float: left;
 }
 
 .footer-links {
