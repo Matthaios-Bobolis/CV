@@ -5,6 +5,7 @@ body {
   font-size: 1.2rem;
   margin: 0;
   text-align: center;
+  background-color: #191919;
 }
 
 h1 {
@@ -29,9 +30,10 @@ h3 {
 }
 
 hr {
-  background-color: #e4dccf;
-  height: 1px;
-  margin: 0;
+  border: dotted #c84b31 6px;
+  border-bottom: none;
+  width: 100%;
+  margin: 50px auto;
 }
 
 table {
@@ -50,14 +52,12 @@ th {
 /****************************Class selectors**************************/
 
 .top-container {
-  background-color: #191919;
   position: relative;
   padding-top: 55px;
   margin-bottom: 0;
 }
 
 .middle-container {
-  background-color: #191919;
   margin-bottom: 0;
 }
 
@@ -66,12 +66,11 @@ th {
 }
 
 .skill-row {
-  margin: 100px auto 100px auto;
+  margin: 50px auto 100px auto;
   width: 50%;
 }
 
 .bottom-container {
-  background-color: #191919;
   margin-bottom: 0;
 }
 
