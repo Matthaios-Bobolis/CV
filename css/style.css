@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   font-size: 1.4rem;
-  margin: 0;
+  margin: 20px 0 20px 0;
   padding: 20px;
 }
 
@@ -209,9 +209,39 @@ th {
 .footer-links {
   padding: 20px;
 }
+
 .contact-me {
   padding: 20px;
 }
+
+.btn {
+  background: #c84b31;
+  background-image: -webkit-linear-gradient(top, #c84b31, #c84b31);
+  background-image: -moz-linear-gradient(top, #c84b31, #c84b31);
+  background-image: -ms-linear-gradient(top, #c84b31, #c84b31);
+  background-image: -o-linear-gradient(top, #c84b31, #c84b31);
+  background-image: linear-gradient(to bottom, #c84b31, #c84b31);
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  font-family: "Play", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight:bold;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffb700;
+  background-image: -webkit-linear-gradient(top, #ffb700, #ffb700);
+  background-image: -moz-linear-gradient(top, #ffb700, #ffb700);
+  background-image: -ms-linear-gradient(top, #ffb700, #ffb700);
+  background-image: -o-linear-gradient(top, #ffb700, #ffb700);
+  background-image: linear-gradient(to bottom, #ffb700, #ffb700);
+  text-decoration: none;
+}
+
 /********************************** ID selectors **************************/
 #copyright {
   font-size: 1rem;
