@@ -227,7 +227,7 @@ th {
   font-family: "Play", sans-serif;
   color: #ffffff;
   font-size: 24px;
-  font-weight:bold;
+  font-weight: bold;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -240,6 +240,12 @@ th {
   background-image: -o-linear-gradient(top, #ffb700, #ffb700);
   background-image: linear-gradient(to bottom, #ffb700, #ffb700);
   text-decoration: none;
+}
+
+.footer-link {
+  color: #f3eee4;
+  font-family: "Play", sans-serif;
+  font-size: 1.09rem;
 }
 
 /********************************** ID selectors **************************/
